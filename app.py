@@ -178,4 +178,4 @@ if __name__ == "__main__":
     measurements_desc = measurement_df['desc']
     measurements_unit = measurement_df['unit']
 
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(debug=True)
